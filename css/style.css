@@ -1915,38 +1915,6 @@ figure {
   align-items: center;
 }
 
-.hamburger-line {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  right: auto;
-  bottom: auto;
-  width: 50%;
-  height: 2px;
-  background-color: #000;
-  transform: translate(-50%, -50%);
-}
-
-.hamburger-line {
-  transition: 0.2s;
-}
-
-.hamburger-line:first-of-type {
-  transform: translate(-50%, -4px);
-}
-
-.hamburger-line:last-of-type {
-  transform: translate(-50%, 8px);
-}
-
-.w--open .hamburger-line:first-of-type {
-  transform: translate(-50%, 0px) rotate(45deg);
-}
-
-.w--open .hamburger-line:last-of-type {
-  transform: translate(-50%, 0px) rotate(-45deg);
-}
-
 .sub-banner {
   display: flex;
   height: 400px;
@@ -2392,12 +2360,6 @@ figure {
   }
   .menu-button.w--open {
     background-color: transparent;
-  }
-  .hamburger-line {
-    left: unset;
-    top: 50%;
-    right: 0;
-    width: 30px;
   }
   .sub-banner {
     height: 200px;
